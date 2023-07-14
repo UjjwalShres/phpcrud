@@ -1,0 +1,59 @@
+.form-container {
+    width: 30%;
+    margin: auto;
+    display: block;
+    margin-top: 100px;
+}
+
+.btn-primary,
+.btn-success,
+.update {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table {
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.form-inline {
+    display: flex;
+    margin: auto;
+}
+
+
+.form-control {
+    margin: 0 5px;
+}
+
+
+.edit {
+    text-decoration: none;
+    color: white;
+}
+
+.edit:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+
+}
+
+.grid-form {
+    grid-column: 2/-1;
+}
+
+.grid-table {
+    grid-column: 0/2;
+
+}
+
+#form-all {
+    width: 70%;
+}
